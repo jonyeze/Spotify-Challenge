@@ -1,0 +1,10 @@
+export const LIST_PLAILYST = 'LIST_PLAILYST';
+export const OBTAIN_PLAILYST = 'OBTAIN_PLAILYST';
+export const ADD_PLAILYST = 'ADD_PLAILYST';
+export const CURRENT_LIST = 'CURRENT_LIST';
+export const CLEAR_PLAILYST = 'CLEAR_PLAILYST';
+
+export const LETTER_PLAILYST = 'LETTER_PLAILYST';
+export const ADD_SONG = 'ADD_SONG';
+export const VALIDATE_SONG = 'VALIDATE_SONG';
+export const CLEAR_SONG = 'CLEAR_SONG';

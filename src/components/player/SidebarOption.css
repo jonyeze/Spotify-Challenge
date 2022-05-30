@@ -1,0 +1,19 @@
+.sidebarOption {
+    color: gray;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color erase-in;
+}
+
+.sidebarOption:hover {
+    color: white;
+}
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+  }
+.list{
+    margin-top: 1rem;
+}
+  

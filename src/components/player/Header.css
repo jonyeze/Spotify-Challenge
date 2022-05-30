@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__left {
+    flex: 0.5;
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+    align-items: center;
+  }
+  
+  .header__left > input {
+    border: none;
+    width: 100%;
+  }
+  
+  .header__right > h4 {
+    margin-left: 10px;
+  }
+
+.song {
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: white;
+}
+
+.song__info {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.song__info > h1 {
+  font-size: 16px;
+}
+
+.song__info > p {
+  font-size: 14px;
+  margin-top: 3px;
+  color: gray;
+}
+.title {
+  cursor: pointer;
+}
+
+.icon__music {
+  margin-right: 5px;
+  color: #07a36a;
+  cursor: pointer;
+}
+  
+ 
