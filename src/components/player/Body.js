@@ -8,6 +8,7 @@ import { useDataLayerValue } from '../../context/DataLayer';
 
 
 export default function Body() {
+    // eslint-disable-next-line no-unused-vars
     const [{ discover_weekly }, dispatch] = useDataLayerValue();
 
     return (

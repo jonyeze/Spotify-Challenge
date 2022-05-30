@@ -10,6 +10,7 @@ const { list, obtainPlailystFn } = listContext;
     
 useEffect(() => {
     obtainPlailystFn();
+// eslint-disable-next-line react-hooks/exhaustive-deps
 },[]);
 
 if(list.lenght === 0) return null;
