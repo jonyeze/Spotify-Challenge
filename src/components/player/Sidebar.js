@@ -6,6 +6,7 @@ import Aside from './Aside/Aside';
 
 
 function Sidebar() {
+    // eslint-disable-next-line no-unused-vars
     const [{ playlists }, dispatch] = useDataLayerValue();
 
     return (

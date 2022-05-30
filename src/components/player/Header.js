@@ -16,6 +16,7 @@ const Header = () => {
     const [results, setResults] = useState();
     const { name } = search;
 
+    // eslint-disable-next-line no-unused-vars
     const [{ user }, dispatch] = useDataLayerValue();
 
 

@@ -12,7 +12,7 @@ const spotify = new SpotifyWebApi();
 
 
 function App() {
-  const [{ user, token }, dispatch] = useDataLayerValue();
+  const [{ token }, dispatch] = useDataLayerValue();
 
 
 
@@ -54,6 +54,7 @@ function App() {
 
     }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
 
